@@ -1,14 +1,17 @@
 # SMART MIRROR
 
-SMART MIRROR is an AI virtual try-on progressive web app with a personal style studio and wardrobe. It creates a personal fashion avatar from profile choices and optional face/body references, then lets users see how garments look on them before buying, save looks, generate short presentation videos, and preview products from an internal e-commerce demo.
+SMART MIRROR is an AI virtual try-on progressive web app with a personal style studio and wardrobe. It creates a personal fashion avatar from profile choices and optional face/body references, then lets users see how garments look on them before buying, before wearing, or while comparing outfits.
 
-The project is designed for both consumer use and B2B e-commerce integration: a shop can add a "See on me" button so a customer can instantly visualize a selected product on their own avatar before buying.
+The project works across online shopping, physical ready-to-wear stores, and personal wardrobes. A user can click "See on me" on an e-commerce site, take a photo of a garment on a mannequin, hanger, or display in a physical shop, or upload clothes they already own. SMART MIRROR then projects the garment onto their personal avatar so they can judge the look before making a decision.
+
+The project is also designed for B2B e-commerce integration: a shop can add a "See on me" button so a customer can instantly visualize a selected product on their own avatar before buying.
 
 ## What it does
 
 - Builds a style profile with gender, height range, body shape, usual clothing sizes, shoe size, and optional identity photos.
 - Creates or selects a full-body avatar with front, side, and back views.
 - Provides an internal shop where products can be opened with a "See on me" flow.
+- Accepts garment photos from e-commerce pages, physical shops, mannequins, hangers, displays, or the user's own wardrobe.
 - Generates AI try-on images that preserve the user's face, skin tone, body proportions, garment details, color, material, and selected size.
 - Saves generated outfits into a personal wardrobe/studio.
 - Generates short 5-second vertical fashion videos from saved avatar or outfit views.
